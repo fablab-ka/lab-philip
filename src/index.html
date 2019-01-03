@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab Philip</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Lab Philip</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Ask me stuff</h2>
+
+            <form action="">
+                <label>
+                    Question:
+                    <input id="query-input" />
+                </label>
+
+                <input id="send-query-button" type="submit" value="Send"/>
+            </form>
+        </section>
+
+        <section>
+            <h2>Tell me stuff</h2>
+
+            <form action="">
+                <label>
+                    Object Name:
+                    <input id="object-name-input" />
+                </label>
+                <label>
+                    Location:
+                    <select id="location-input">
+                        <option>Electronic Shelves</option>
+                        <option>Electronic Drawers</option>
+                        <option>Electronic Rolling Container</option>
+                        <option>Outdoor Tools Shelf</option>
+                        <option>Workbench Tool Wall</option>
+                        <option>Workbench Containers Left</option>
+                        <option>Workbench Containers Right</option>
+                        <option>Workbench Drawers Right</option>
+                        <option>Tool Drawers</option>
+                        <option>Containers Below Tool Drawers</option>
+                        <option>Sorting boxes Shelf</option>
+                        <option>MacPak Container Shelf</option>
+                        <option>Lasercutter Drawers</option>
+                        <option>Lasercutter Material Tower</option>
+                        <option>Kitchen</option>
+                        <option>Shelves Above Kitchen</option>
+                        <option>Yellow Containers</option>
+                        <option>Red Lockers</option>
+                        <option>Orange Lockers</option>
+                        <option>Drawer Cabinet Beneath 3D Printers</option>
+                        <option>Deepstorage</option>
+                    </select>
+                </label>
+                <label>
+                    Comment:
+                    <input id="comment-input" />
+                </label>
+
+                <input id="save-new-object-button" type="submit" value="Save"/>
+            </form>
+        </section>
+    </main>
+
+    <div class="summary-container" style="display: none">
+        <summary id="result-summary">
+            <ul></ul>
+        </summary>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "lab_philip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "browser-sync": "^2.26.3",
+    "elasticlunr": "^0.9.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:debug": "browser-sync start --server 'src' --files 'src'"
+  }
+}
